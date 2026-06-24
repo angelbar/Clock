@@ -1,0 +1,25 @@
+# Binarios compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Directorio de distribución (excepto los binarios)
+/dist/*.zip
+/dist/*.tar.gz
+
+# Go
+go.work
+go.work.sum
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
