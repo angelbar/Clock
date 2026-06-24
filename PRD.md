@@ -124,6 +124,12 @@ goversioninfo -o resource.syso versioninfo.json
 go build -ldflags="-H=windowsgui -s -w" -o dist/Clock.exe .
 ```
 
+## Preview
+
+![Clock](sample_capture.png)
+
+*Clock — reloj digital minimalista en modo 12h con menú hover visible*
+
 ## Distribución
 
 - Compañía: **eData101** (https://edata101.com)
